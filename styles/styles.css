@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon-btn {
+    border: unset;
+    background-color: transparent;
+}
+
+.icon-btn:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 8px;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+.text-btn {
+    padding: 8px 30px;
+    border: none;
+    background-color: transparent;
+    color: #156963;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contained-btn {
+    padding: 8px 30px;
+    border: none;
+    color: #156963;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.contained-btn {
+    background-color: #156963;
+}
+
+.large-btn {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.large-btn span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.large-btn span:nth-child(1) {
+    font-size: 24px;
+    color: #333;
+}
+
+.large-btn span:nth-child(2) {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.hero {
+    padding: 70px 0;
+}
+
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hero-wrapper h1 {
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 500;
+    color: #156963;
+    width: 523px;
+    margin-bottom: 24px;
+}
+
+.hero-wrapper p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 523px;
+    line-height: 32px;
+}
+
+.hero-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 70px;
+}
+
+.hero-action img {
+    margin-top: -426px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: calc(25% - 32px);
+    padding: 15px;
+    border: solid 1px rgb(218, 213, 213);
+    margin: 16px;
+}
+
+
+.col-plants a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #156963;
+    font-weight: 60000;
+}
+
+.col-3 p {
+    padding-top: 10px;
+}
+
+.box a {
+    display: inline-block;
+}
+
+.featured {
+    display: inline-block;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 16px 0;
+}
+
+.col-2 {
+    width: calc(20% - 20px);
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    margin: 10px;
+    text-align: center;
+
+}
+
+select {
+    padding: 5px;
+}
+
+.col-6 {
+    width: 50%;
+    margin-top: 7%;
+    flex: 0 0 45%;
+}
+
+
+.buy .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+
+.buy p{
+    font-size: 18px;
+    padding: 0 25px 25px 0;
+    color: grey;
+    margin-bottom: 90px;
+}
+
+.shop{
+    background-color: rgb(241, 241, 241);
+    margin-top: 7%;
+}
+
+.content {
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+
+.shop .container{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    margin-top: 5%;
+    padding-top: 5%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+footer .col-6{
+  padding: 0 0 0 30px;
+  margin-top: 0;
+}
+footer .col-6 p{
+    padding-bottom: 15px;
+}
+
+h2{
+    color: #156963;
+    padding-bottom: 25px;
+}
+
+h3{
+    padding-bottom: 25px;
+}
+
+.plantku{
+    padding-right: 100px;
+}
+
+.email{
+    color: black;
+}
+
+label{
+    padding: 15px;
+}
+
+
+.col-4 button{
+    background-color: #156963;
+    color: #fff;
+    padding: 7px 12px;
+    margin-top: 25px;
+}
+
+hr{
+    margin-top: 10%;
+    color: #156963;
+}
